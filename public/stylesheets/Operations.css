@@ -1,0 +1,234 @@
+
+div.containerImage {
+    width: 50%;
+    text-align: center;
+    position: left;
+    float: left;
+    margin-left: 0px;
+    height: 100%;
+    /* background-color: blue; */
+    }
+
+    div.ThisIsTitle {
+        width: 50%;
+        text-align: left;
+        position: right;
+        float: right;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 100%;
+        color: white;
+    }
+
+    .display-4 {
+        font-size: 7rem;
+        width: 100%;
+        align-items: left;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 30%;
+        color: white;
+    }
+
+    div.ThisIsTitle2 {
+        width: 50%;
+        text-align: left;
+        position: right;
+        float: right;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 100%;
+        color: white;
+
+    }
+
+    div.containerImage2 {
+        width: 50%;
+        text-align: center;
+        position: left;
+        float: left;
+        margin-left: 0px;
+        height: 100%;
+        }
+
+    .subtitle2 {
+        text-align: center;
+        color: white;
+        border-bottom: 1px solid white;
+        width: 35%;
+        margin-left: 33%;
+        margin-top: 30%;
+        margin-bottom: 3%;
+    }
+
+    p.subtitleText {
+        color: white;
+        font-size: 2rem;
+        padding: 0px;
+    }
+
+    .containerImage3{
+        width: 100%;
+        text-align: center;
+        position: center;
+        float: left;
+        margin-left: 0px;
+        height: 100%;
+
+    }
+
+    .Title {
+        color: white;
+        text-align: center;
+        height: 20%;
+        margin-top: 3%;
+    }
+
+    .Description {
+        color: white;
+        text-align: center;
+        /* background-color: red; */
+        border-bottom: 1px solid white;
+        position: center;
+        width: 40%;
+        margin: auto;
+    }
+    .Description h1 {
+        font-size: 2rem;
+    }
+
+    .circle1 {
+        border: 2px solid white;
+        border-radius: 360px;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        text-align: center;
+        margin-top: 6%;
+    }
+    .circle1 p {
+        font-size: 1.7rem;
+        text-align: center;
+        color: white;
+        /* background-color: blue; */
+        border-radius: 360px;
+        margin-top: 40%;
+    }
+
+    .circle2 {
+        border: 2px solid white;
+        border-radius: 360px;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        text-align: center;
+        margin-top: 6%;
+    }
+
+    .circle2 p {
+        font-size: 1.7rem;
+        text-align: center;
+        color: white;
+
+        border-radius: 360px;
+        margin-top: 40%;
+    }
+
+#operationLogo {
+  margin-top: 20%;
+  margin-bottom: 2%;
+  margin-left: 0%;
+  margin-right: auto;
+  width: 50rem;
+  border-radius: 360px;
+  height: 35rem;
+  width: 35rem;
+  text-align: center;
+  float: center;
+}
+
+.row {
+  padding-top: 8%;
+}
+#leaderImage {
+  margin-right: auto;
+  margin-left: 12%;
+  width: 20rem;
+  height: 25rem;
+  text-align: center;
+  display: inline-block;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.fas.fa-exchange-alt {
+  margin-top: 20%;
+}
+
+.btn.btn-danger {
+  margin-left: 40%;
+  padding: 2% 4%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 150px) and (max-width:480px) and (orientation: portrait) {
+
+  h1 {
+    text-align: center;
+    color: white;
+
+  }
+  #operationLogo{
+    margin-top: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 15rem;
+    height: 15rem;
+
+  }
+
+  .display-4 {
+    margin-top: 10%;
+    /* margin-left: 15%; */
+    font-size: 4.5rem;
+  }
+
+  .subtitleText {
+    text-align: center;
+  }
+
+  #leaderImage {
+    margin-top: 10%;
+    margin-left: 0;
+    border-radius: 2.5px;
+  }
+
+  .col-sm{
+     margin: auto;
+     text-align: center;
+  }
+
+  .containerImage3 {
+    float: none;
+    height: 30%;
+  }
+
+  .btn.btn-danger {
+    margin-left: 26%;
+    padding: 4% 6%;
+    margin-top: -30%;
+  }
+
+  .fas.fa-exchange-alt {
+    margin-top: -20%;
+  }
+}

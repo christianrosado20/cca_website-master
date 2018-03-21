@@ -1,0 +1,112 @@
+#rdLogo{
+  margin-top: 10%;
+  margin-bottom: 2%;
+  margin-left: 0%;
+  margin-right: auto;
+  width: 50rem;
+  height: 50rem;
+  text-align: center;
+  float: center;
+}
+
+#teamLeader {
+  margin-top: 32%;
+  margin-right: auto;
+  margin-left: 12%;
+  width: 20rem;
+  height: 25rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.display-4{
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-top: 35%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.circle1 {
+    border: 2px solid white;
+    border-radius: 360px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 6%;
+}
+.circle1 p {
+    font-size: 1.7rem;
+    text-align: center;
+    color: white;
+    /* background-color: blue; */
+    border-radius: 360px;
+    margin-top: 40%;
+}
+
+.circle2 {
+    border: 2px solid white;
+    border-radius: 360px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.circle2 p {
+    font-size: 1.7rem;
+    text-align: center;
+    color: white;
+
+    border-radius: 360px;
+    margin-top: 40%;
+}
+
+@media only screen and (min-width: 150px) and (max-width:480px) and (orientation: portrait) {
+ #rdLogo {
+   width: 18rem;
+   height: 18rem;
+   margin: 20% 18%;
+   text-align: center;
+ }
+
+ .col-sm {
+   margin: auto;
+   width: 100%;
+   text-align: center;
+ }
+
+ .fa.fa-exchange-alt {
+   margin-top: -15%;
+ }
+
+ .btn.btn-danger {
+   margin-left: 32%;
+   padding: 4% 6%;
+   margin-top: -30%;
+ }
+
+ #teamLeader {
+   margin-top: 0;
+   margin: auto;
+ }
+ .display-4 {
+   margin-top: 0;
+ }
+
+
+
+
+}
