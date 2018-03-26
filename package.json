@@ -4,7 +4,7 @@
   "description": "CCA website",
   "main": "app.js",
    "engines": {
-    "npm": "5.6.1"
+    "npm": "5.6.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
