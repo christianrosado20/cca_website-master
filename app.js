@@ -13,11 +13,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 // const PORT = process.env.PORT || 5000
 
 // express()
-  app.use(express.static(path.join(__dirname, 'public')))
-  app.set('views', path.join(__dirname, 'views'))
-  app.set('view engine', 'ejs')
-  app.get('/', (req, res) => res.render('pages/index'))
-.listen(PORT, () => console.log(`Listening on ${ PORT }`))
+//   app.use(express.static(path.join(__dirname, 'public')))
+//   app.set('views', path.join(__dirname, 'views'))
+//   app.set('view engine', 'ejs')
+//   app.get('/', (req, res) => res.render('pages/index'))
+// .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
 //HOME ROUTES
 
