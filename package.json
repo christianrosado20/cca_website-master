@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "CCA website",
   "main": "app.js",
+   "engines": {
+    "npm": "5.6.1"
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
